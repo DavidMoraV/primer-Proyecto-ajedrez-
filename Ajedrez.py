@@ -18,6 +18,8 @@ def colocar_piezas_iniciales(tablero):
     tablero[0] = piezas_blancas
 
 def mover_pieza(tablero):
+    while True:
+        movimineto = input("Introduce tu movimineto (ej. Te5) o Fin para terminar: ")
 
 def colocar_piezas_usuario(tablero):
 
@@ -28,4 +30,3 @@ def mostrar_menu():
     print("3. Salir")
 
 def main():
-    
